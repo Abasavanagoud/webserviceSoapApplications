@@ -12,5 +12,5 @@ public interface ParcelTracking {
 	public String track(
 			@WebParam(name = "awb-No", targetNamespace = "https://www.bluedart.com/ParcelTracking/types") String awbNo,
 			@WebParam(name = "mobile-No", targetNamespace = "https://www.bluedart.com/ParcelTracking/types") String mobileNo);
-
+//djdj
 }
